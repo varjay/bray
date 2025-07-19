@@ -5,6 +5,85 @@
   --vp-c-brand-3: #df0a0a;
 }
 
+/* 自定义顶部条样式 */
+.custom-top-bar {
+  background-color: var(--vp-c-brand-1);
+  color: white;
+  font-size: 14px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 11;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.custom-top-bar .container {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 32px;
+  width: 100%;
+}
+
+.custom-top-bar .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-top-bar .right {
+  display: flex;
+  gap: 12px;
+}
+
+.custom-top-bar .separator {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* 调整默认布局位置 */
+.custom-layout .VPNav {
+  position: fixed;
+  top: 36px; /* 顶部条高度 */
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.custom-layout .VPContent {
+  padding-top: 36px; /* 增加内容区顶部内边距 */
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .custom-top-bar {
+    display: none;
+  }
+  
+  .custom-layout .VPNav {
+    top: 0;
+  }
+  
+  .custom-layout .VPContent {
+    padding-top: 0;
+  }
+}
+
+.VPButton.medium {
+  border-radius: 0 !important;
+}
+
+.VPNavBar .logo {
+  --vp-nav-logo-height: 36px;
+  box-shadow: none;
+}
+.VPNavBar .title {
+  padding-right: 0 !important;
+}
+  .VPNavBar .title span {
+  display: none;
+}
 /* 自定义全局样式 */
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
@@ -130,11 +209,21 @@ img:not(.custom-img) {
 } 
 
 
+/* 调整首页Hero部分 */
 .VPHomeHero {
-  --vp-layout-top-height: -64px;
+  --vp-layout-top-height: 92px; /* 重置顶部高度 */
+  padding-top: 72px; /* 导航栏(64px) + 额外空间(8px) */
   background: url(home-hero.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
+  color: white;
+  margin-top: 66px !important;
+}
+
+.VPHomeHero .tagline {
+  color: white;
+  font-size: 17px;
+  line-height: 1.6;
 }
 
 .VPHomeHero:before {
@@ -148,5 +237,27 @@ img:not(.custom-img) {
 }
 
 .VPHomeFeatures {
-  margin-top: 60px;
+  --vp-c-bg-soft: black;
+  margin-top: -60px;
+}
+
+.VPHomeFeatures .VPFeature {
+  border-radius: 0 !important;
+  color: white;
+}
+/* 卡片内部容器使用flexbox */
+.VPHomeFeatures .VPFeature .box {
+  position: relative;
+  padding-left: 100px;
+}
+.VPHomeFeatures .VPFeature .icon {
+  position: absolute;
+  left: 24px;
+  border-radius: 0;
+  background: var(--vp-button-brand-bg);
+  width: 60px;
+  height: 60px;
+}
+.VPHomeFeatures .VPFeature .details {
+  color: #bbb;
 }

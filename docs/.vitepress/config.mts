@@ -12,7 +12,10 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.png',
+    logo: {
+      src: '/logo.png',
+      alt: 'Bray 美国博雷阀门',
+    },
     nav: [
       { text: '首页', link: '/' },
       { 
