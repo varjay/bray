@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: Bray 美国博雷阀门 - 美国博雷阀门Bray是全球流体控制、自动化产品与配件的首要制造商之一，拥有超过30年的持续成功历程，并在逾40个国家和地区开展业务运营。
 
 hero:
   name: "博雷阀门"

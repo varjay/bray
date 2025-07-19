@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "博雷阀门",
+  title: "Bray 美国博雷阀门",
   description: "专业工业阀门制造商 - 高品质、可靠、专业的阀门解决方案",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -104,13 +104,18 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/brayvalve' }
-    ],
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/brayvalve' }
+    // ],
     
     footer: {
       message: '博雷阀门 - 专业阀门制造商',
       copyright: '版权所有 © 2024 博雷阀门'
+    },
+    
+    // 添加本地搜索配置
+    search: {
+      provider: 'local'
     }
   }
 })

@@ -27,12 +27,48 @@ body {
   justify-content: flex-start;
 }
 
-.VPNav .VPNavBarMenu.menu {
-  flex: 0;
-}
-
 .VPNavBarMenuLink {
   padding: 0 12px;
+}
+
+/* 调整导航栏元素顺序：菜单、搜索框、深色模式切换按钮 */
+.VPNavBar .content {
+  display: flex;
+  align-items: center;
+}
+
+.VPNavBar .content-body {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* 菜单放在最前面 */
+.VPNavBarMenu.menu {
+  order: 1;
+  flex: 1;
+}
+
+/* 搜索框放中间 */
+.VPNavBarSearch {
+  order: 2;
+  margin-left: 20px;
+  flex: 0 0 auto; /* 不伸缩，保持自身尺寸 */
+  width: auto;
+}
+
+.VPNavBarSearch .DocSearch-Button {
+  width: auto; /* 按钮宽度自适应 */
+}
+
+/* 深色模式切换按钮放最后 */
+.VPNavBarAppearance {
+  order: 3;
+}
+
+/* 社交链接图标 */
+.VPNavBarSocialLinks {
+  order: 4;
 }
 
 /* 页面过渡动画 */
@@ -97,4 +133,18 @@ img:not(.custom-img) {
 
 .VPButton:hover::after {
   transform: translateX(0);
+}
+
+/* 多列下拉菜单样式 */
+.VPNavBarMenu .VPMenu .VPMenuItems {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.VPNavBarMenu .VPMenu .VPMenuItems .VPMenuGroup,
+.VPNavBarMenu .VPMenu .VPMenuItems .VPMenuLink {
+  flex: 1 0 200px;
+  padding: 0.5rem 1rem;
+  min-width: 200px;
 } 
