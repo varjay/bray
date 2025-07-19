@@ -6,7 +6,7 @@ export default defineConfig({
   description: "专业工业阀门制造商 - 高品质、可靠、专业的阀门解决方案",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.svg',
+    logo: '/logo.png',
     nav: [
       { text: '首页', link: '/' },
       { 
@@ -104,9 +104,12 @@ export default defineConfig({
       }
     ],
 
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/brayvalve' }
-    // ],
+    socialLinks: [
+      { icon: 'facebook', link: 'https://www.facebook.com/BrayInternational/' },
+      { icon: 'x', link: 'https://www.braycn.com/#' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/company/bray-controls/' },
+      { icon: 'youtube', link: 'https://www.youtube.com/c/BrayInt' }
+    ],
     
     footer: {
       message: '博雷阀门 - 专业阀门制造商',
