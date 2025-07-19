@@ -4,6 +4,9 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+// 导入UnoCSS
+import 'uno.css'
+
 export default {
   extends: DefaultTheme,
   Layout: () => {

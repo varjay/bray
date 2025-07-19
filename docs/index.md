@@ -44,23 +44,67 @@ const members = [
 ]
 </script>
 
-## 公司领导层
-
-<div class="team-container">
-  <p class="team-description">公认的企业管理专家，在阀门和执行机构行业具有40多年的国际经验。</p>
+<div class="team-container full-width-container">
+  <p class="team-description text-sm font-bold text-primary mb-4">LEADERS</p>
+  <p class="team-description text-4xl font-bold text-gray-700 dark:text-gray-300">公司领导层</p>
+  <p class="team-description text-sm mx-auto">公认的企业管理专家，在阀门和执行机构行业具有40多年的国际经验。</p>
   <VPTeamMembers size="medium" :members="members" />
+</div>
+
+<div class="full-width-container">
+  <div class="mt-8 py-10 bg-gray-100 dark:bg-gray-800">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap justify-center">
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-6 transition-all hover:shadow-lg">
+            <div class="i-carbon-globe text-primary mb-4"></div>
+            <h3 class="text-lg font-bold mb-2">全球化业务</h3>
+            <p class="text-gray-600 dark:text-gray-300">我们在全球40多个国家和地区开展业务，为客户提供本地化支持。</p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-6 transition-all hover:shadow-lg">
+            <div class="i-carbon-task text-primary mb-4"></div>
+            <h3 class="text-lg font-bold mb-2">高质量标准</h3>
+            <p class="text-gray-600 dark:text-gray-300">严格的质量控制流程确保每个产品都符合国际标准。</p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-6 transition-all hover:shadow-lg">
+            <div class="i-carbon-innovation text-primary mb-4"></div>
+            <h3 class="text-lg font-bold mb-2">创新技术</h3>
+            <p class="text-gray-600 dark:text-gray-300">持续的研发投入使我们始终保持技术领先地位。</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="/about-us" class="btn btn-primary inline-block">了解更多</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>
 .team-container {
-  margin: 2rem auto;
-  max-width: 1200px;
   padding: 0 2rem;
   text-align: center;
 }
 .team-description {
-  max-width: 800px;
   margin: 0 auto 2rem;
   color: var(--vp-c-text-2);
+}
+.VPTeamMembers {
+  display: flex;
+  justify-content: center;
+}
+
+/* 全宽容器样式 - 突破vp-doc限制 */
+.full-width-container {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 </style>

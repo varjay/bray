@@ -1,9 +1,5 @@
 :root {
-  --vp-c-brand: yellow;
-  --vp-c-brand-light: blue;
-  --vp-c-brand-lighter: green;
-  --vp-c-brand-dark: red;
-  --vp-c-brand-darker: black;
+  /* 1 */
   --vp-c-brand-1: #c8102e;
   --vp-c-brand-2: blue;
   --vp-c-brand-3: #df0a0a;
@@ -90,25 +86,6 @@ body {
   transform: translateX(30px);
 }
 
-/* 自定义滚动条 */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: var(--vp-c-bg-soft);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: var(--vp-c-brand-light);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: var(--vp-c-brand);
-}
 
 /* 图片阴影与圆角 */
 img:not(.custom-img) {

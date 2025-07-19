@@ -1,9 +1,15 @@
 import { defineConfig } from 'vitepress'
+import UnoCSS from 'unocss/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Bray 美国博雷阀门",
   description: "专业工业阀门制造商 - 高品质、可靠、专业的阀门解决方案",
+  vite: {
+    plugins: [
+      UnoCSS(),
+    ],
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
