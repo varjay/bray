@@ -120,10 +120,6 @@ export default defineConfig({
       { icon: 'youtube', link: 'https://www.youtube.com/c/BrayInt' }
     ],
     
-    footer: {
-      message: '博雷阀门 - 专业阀门制造商',
-      copyright: '版权所有 © 2024 博雷阀门'
-    },
     
     // 添加本地搜索配置
     search: {

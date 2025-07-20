@@ -2,7 +2,8 @@
 import { h, defineComponent } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import TopBar from './components/TopBar.vue'
+// import TopBar from './components/TopBar.vue'
+import Footer from './components/Footer.vue'
 import './style.css'
 
 // 导入UnoCSS
@@ -26,6 +27,7 @@ const TopBar = defineComponent({
   }
 })
 
+
 // 创建扩展布局组件
 const Layout = defineComponent({
   setup() {
@@ -34,7 +36,8 @@ const Layout = defineComponent({
         // 先渲染顶部条
         h(TopBar),
         // 然后渲染整个默认布局
-        h(DefaultTheme.Layout)
+        h(DefaultTheme.Layout),
+        h(Footer)
       ])
     }
   }

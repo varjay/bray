@@ -211,7 +211,7 @@ img:not(.custom-img) {
 
 /* 调整首页Hero部分 */
 .VPHomeHero {
-  --vp-layout-top-height: 92px; /* 重置顶部高度 */
+  --vp-layout-top-height: 29px; /* 重置顶部高度 */
   padding-top: 72px; /* 导航栏(64px) + 额外空间(8px) */
   background: url(home-hero.jpg) center center no-repeat;
   background-size: cover;

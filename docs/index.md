@@ -19,21 +19,21 @@ hero:
       link: /about-us
 
 features:
-  - icon: 🌐
+  - icon: <span class="i-material-symbols-location-on-rounded"></span>
     title: 分支机构
     details: 博雷在40多个国家有分支机构
-  - icon: ☎️
+  - icon: <span class="i-mynaui-telephone-call-solid"></span>
     title: 联系我们
     details: (+86) 139-1744-4407
-  - icon: 📮
+  - icon: <span class="i-material-symbols-mark-email-read"></span>
     title: 9:00 AM - 5:00 PM
     details: 周一到周六
-
-footer: 版权所有 © 2024 博雷阀门 | 所有权利保留
 ---
 
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
+import FeatureSection from './.vitepress/theme/components/FeatureSection.vue'
+import ProductSection from './.vitepress/theme/components/ProductSection.vue'
 
 const members = [
   {
@@ -44,38 +44,7 @@ const members = [
 ]
 </script>
 
-<div class="full-width-container">
-  <div class="mt-8 py-10 bg-gray-100 dark:bg-gray-800">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-wrap justify-center">
-        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-          <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-6 transition-all hover:shadow-lg">
-            <div class="i-carbon-globe text-primary mb-4"></div>
-            <h3 class="text-lg font-bold mb-2">全球化业务</h3>
-            <p class="text-gray-600 dark:text-gray-300">我们在全球40多个国家和地区开展业务，为客户提供本地化支持。</p>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-          <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-6 transition-all hover:shadow-lg">
-            <div class="i-carbon-task text-primary mb-4"></div>
-            <h3 class="text-lg font-bold mb-2">高质量标准</h3>
-            <p class="text-gray-600 dark:text-gray-300">严格的质量控制流程确保每个产品都符合国际标准。</p>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-          <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-6 transition-all hover:shadow-lg">
-            <div class="i-carbon-innovation text-primary mb-4"></div>
-            <h3 class="text-lg font-bold mb-2">创新技术</h3>
-            <p class="text-gray-600 dark:text-gray-300">持续的研发投入使我们始终保持技术领先地位。</p>
-          </div>
-        </div>
-      </div>
-      <div class="text-center mt-8">
-        <a href="/about-us" class="btn btn-primary inline-block">了解更多</a>
-      </div>
-    </div>
-  </div>
-</div>
+<FeatureSection />
 
 <div class="team-container full-width-container">
   <div class="team-container-overlay py-12">
@@ -85,6 +54,9 @@ const members = [
     <VPTeamMembers size="medium" :members="members" />
   </div>
 </div>
+
+<!-- 最新产品 -->
+<ProductSection />
 
 <style>
 .team-container {
@@ -107,10 +79,10 @@ const members = [
   height: 160px !important;
 }
 
-/* 全宽容器样式 - 突破vp-doc限制 */
+/* 全宽容器样式 */
 .full-width-container {
-  width: 100vw;
   position: relative;
+  width: 100vw;
   left: 50%;
   right: 50%;
   margin-left: -50vw;
