@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import UnoCSS from 'unocss/vite'
+import { productMenus } from './theme/config'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,15 +19,13 @@ export default defineConfig({
     },
     nav: [
       { text: '首页', link: '/' },
+      {
+        text: '产品中心',
+        component: 'CustomNavItem',
+      },
       { 
         text: '产品中心', 
-        items: [
-          { text: '球阀系列', link: '/products#球阀系列' },
-          { text: '闸阀系列', link: '/products#闸阀系列' },
-          { text: '蝶阀系列', link: '/products#蝶阀系列' },
-          { text: '截止阀系列', link: '/products' },
-          { text: '止回阀系列', link: '/products' }
-        ]
+        items: productMenus
       },
       { 
         text: '解决方案', 

@@ -2,9 +2,9 @@
 import { h, defineComponent } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-// import TopBar from './components/TopBar.vue'
 import Footer from './components/Footer.vue'
 import './style.css'
+import CustomNavItem from './components/CustomNavItem.vue'
 
 // 导入UnoCSS
 import 'uno.css'
@@ -27,7 +27,6 @@ const TopBar = defineComponent({
   }
 })
 
-
 // 创建扩展布局组件
 const Layout = defineComponent({
   setup() {
@@ -47,6 +46,7 @@ export default {
   extends: DefaultTheme,
   Layout,
   enhanceApp({ app, router, siteData }) {
-    // ...
+    // 注册自定义导航组件
+    app.component('CustomNavItem', CustomNavItem)
   }
 } satisfies Theme 

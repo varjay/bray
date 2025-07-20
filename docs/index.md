@@ -34,6 +34,7 @@ features:
 import { VPTeamMembers } from 'vitepress/theme'
 import FeatureSection from './.vitepress/theme/components/FeatureSection.vue'
 import ProductSection from './.vitepress/theme/components/ProductSection.vue'
+import CompanyHighlights from './.vitepress/theme/components/CompanyHighlights.vue'
 
 const members = [
   {
@@ -45,6 +46,9 @@ const members = [
 </script>
 
 <FeatureSection />
+
+<!-- 公司亮点 -->
+<CompanyHighlights />
 
 <div class="team-container full-width-container">
   <div class="team-container-overlay py-12">
@@ -59,6 +63,16 @@ const members = [
 <ProductSection />
 
 <style>
+/* 全宽容器样式 */
+.full-width-container {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
 .team-container {
   text-align: center;
   background: url('home-leader.jpg') no-repeat fixed 0 0 / cover;
@@ -77,15 +91,5 @@ const members = [
 .VPTeamMembers .profile .avatar {
   width: 160px !important;
   height: 160px !important;
-}
-
-/* 全宽容器样式 */
-.full-width-container {
-  position: relative;
-  width: 100vw;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 }
 </style>

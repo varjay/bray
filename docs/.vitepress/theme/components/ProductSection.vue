@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 dark:bg-gray-800 py-16">
+  <div class="product-selection bg-gray-50 dark:bg-gray-800 py-16 full-width-container">
     <div class="container mx-auto px-4">
       <div class="text-center">
         <div class="text-base font-bold text-primary">最新产品</div>
@@ -55,5 +55,7 @@ const products = [
 </script>
 
 <style scoped>
-/* 组件样式 */
+.product-selection .container {
+  max-width: 1152px;
+}
 </style> 
