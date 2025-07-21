@@ -63,3 +63,4 @@ pnpm-debug.log*
 /delete-preview-record.json
 /delete-record.json
 /image-usage-report.json
+/docs/public/generated-data.json
