@@ -33,7 +33,7 @@ features:
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 import FeatureSection from './.vitepress/theme/components/FeatureSection.vue'
-import ProductSection from './.vitepress/theme/components/ProductSection.vue'
+import ProductSection from './ProductSection.vue'
 import CompanyHighlights from './.vitepress/theme/components/CompanyHighlights.vue'
 
 const members = [
@@ -75,7 +75,7 @@ const members = [
 
 .team-container {
   text-align: center;
-  background: url('home-leader.jpg') no-repeat fixed 0 0 / cover;
+  background: url('/images/home-leader.jpg') no-repeat fixed 0 0 / cover;
   color: white;
 }
 .team-container-overlay {

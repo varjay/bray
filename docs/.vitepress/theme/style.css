@@ -253,7 +253,7 @@ img:not(.custom-img) {
 .VPHomeHero {
   --vp-layout-top-height: 29px; /* 重置顶部高度 */
   padding-top: 72px; /* 导航栏(64px) + 额外空间(8px) */
-  background: url(home-hero.jpg) center center no-repeat;
+  background: url('/images/home-hero.jpg') center center no-repeat;
   background-size: cover;
   position: relative;
   color: white;
