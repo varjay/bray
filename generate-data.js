@@ -62,6 +62,7 @@ function cleanMarkdownFormat(text) {
  * 从markdown内容中提取标题
  */
 function extractTitle(content, filename) {
+    console.log(filename)
     if (filename !== 'index.md') {
         // 如果不是index.md，使用文件名（去掉.md扩展名）
         return cleanMarkdownFormat(path.basename(filename, '.md'));

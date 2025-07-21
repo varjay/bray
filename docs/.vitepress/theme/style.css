@@ -5,6 +5,36 @@
   --vp-c-brand-3: #df0a0a;
 }
 
+@media (min-width: 960px) {
+  .VPDoc[data-v-10119189] {
+      padding: 68px 32px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .VPDoc[data-v-10119189] {
+      padding: 68px 32px 128px;
+  }
+}
+
+.VPDoc {
+  padding: 32px 24px 96px;
+  width: 100%;
+}
+.VPDoc .content-container {
+  max-width: initial !important;
+}
+
+.VPSidebar {
+  padding-top: 120px !important;
+  background-color: transparent !important;
+}
+.VPDoc .aside,
+.VPSidebar .title,
+.VPSidebar .curtain {
+  display: none !important;
+}
+
 /* 自定义顶部条样式 */
 .custom-top-bar {
   background-color: var(--vp-c-brand-1);
