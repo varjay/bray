@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "三段式球阀S7000/8000系列 – Bray 美国博雷阀门"
+category: 球阀,三段式,螺纹式
 ---
 
 ![](/2022/09/download-10-1.png)

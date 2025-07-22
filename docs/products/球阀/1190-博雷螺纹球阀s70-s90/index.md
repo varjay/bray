@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: S70/S90螺纹球阀 – Bray 美国博雷阀门
+category: 球阀,螺纹式
 ---
 
 ![](/2022/12/download-5.png)

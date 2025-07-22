@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 衬胶蝶阀 30/31系列 – Bray 美国博雷阀门
+category: 蝶阀,弹性阀座式
 ---
 
 ![](/2022/08/s30-31_6in_150_catalog04_test-03thumbnail.png)

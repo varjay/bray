@@ -1,15 +1,33 @@
 <script setup lang="ts">
 import { data } from './api.data'
 
+const props = defineProps<{
+  category: string
+}>()
+
 // 确保产品数据有正确的类型
 interface Product {
   title: string
   directory: string
   images: string[]
   url: string
+  category: string
 }
 
-const products = data as Product[]
+const products = (data as Product[]).filter(product => {
+  if (props.category) {
+    const categorys = props.category.split(',')
+    const itemCategorys = product.category.split(',')
+    const topLevel = categorys[0] === itemCategorys[0]
+    if (categorys.length === 1) {
+      return topLevel
+    } else {
+      return topLevel && itemCategorys.find(item => categorys.includes(item))
+    }
+  }
+  return true
+})
+console.log(products)
 </script>
 
 <template>

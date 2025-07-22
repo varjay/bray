@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 三偏心蝶阀Tri Lok – Bray 美国博雷阀门
+category: 蝶阀,三偏心
 ---
 
 ![](/2022/09/%E4%B8%89%E5%81%8F%E5%BF%83%E8%9D%B6%E9%98%80.jpg)

@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 过滤调压阀55系列 – Bray 美国博雷阀门
+category: 控制配件,过滤调压阀
 ---
 
 ![](/2022/10/download-1-2.png)

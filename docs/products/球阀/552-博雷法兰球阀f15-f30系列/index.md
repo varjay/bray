@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 法兰式球阀RF15/RF30系列 – Bray 美国博雷阀门
+category: 球阀,法兰式
 ---
 
 ![](/2022/10/download-3.jpg)

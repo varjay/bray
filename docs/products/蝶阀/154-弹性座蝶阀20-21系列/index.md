@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 弹性座蝶阀20/21系列 – Bray 美国博雷阀门
+category: 蝶阀,弹性阀座式
 ---
 
 ![](/2022/09/s20-21_01thumbnail-e1664248433467.png)

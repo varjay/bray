@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 衬胶蝶阀 31H 系列 – Bray 美国博雷阀门
+category: 蝶阀,弹性阀座式
 ---
 
 ![](/2022/08/resilientseatedvalves_s31h_thumbnail.jpg)

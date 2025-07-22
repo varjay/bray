@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 手操器04系列 – Bray 美国博雷阀门
+category: 执行机构,手操器
 ---
 
 ![](/2022/10/download-7.png)

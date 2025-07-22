@@ -37,56 +37,6 @@ export default defineConfig({
           { text: '食品医药', link: '/solutions' }
         ]
       },
-      { 
-        text: '关于我们', 
-        items: [
-          { text: '公司简介', link: '/about-us#公司简介' },
-          { text: '企业文化', link: '/about-us#企业文化' },
-          { text: '发展历程', link: '/about-us' },
-          { 
-            text: '全球业务', 
-            items: [
-              { text: '亚太地区', link: '/global-business#asia-pacific' },
-              { text: '欧洲地区', link: '/global-business#europe' },
-              { text: '美洲地区', link: '/global-business#america' },
-              { text: '非洲地区', link: '/global-business#africa' }
-            ]
-          },
-          { 
-            text: '荣誉资质', 
-            items: [
-              { text: '企业认证', link: '/honors#certifications' },
-              { text: '专利技术', link: '/honors#patents' },
-              { text: '行业奖项', link: '/honors#awards' }
-            ]
-          }
-        ]
-      },
-      { 
-        text: '技术支持', 
-        items: [
-          { text: '技术文档', link: '/tech-support' },
-          { 
-            text: '产品知识', 
-            items: [
-              { text: '选型指南', link: '/product-knowledge#selection-guide' },
-              { text: '材质选择', link: '/product-knowledge#material-selection' },
-              { text: '性能参数', link: '/product-knowledge#performance' },
-              { text: '使用环境', link: '/product-knowledge#environment' }
-            ]
-          },
-          { 
-            text: '安装维护', 
-            items: [
-              { text: '安装指南', link: '/installation#guide' },
-              { text: '调试方法', link: '/installation#debugging' },
-              { text: '维护保养', link: '/installation#maintenance' },
-              { text: '故障排除', link: '/installation#troubleshooting' }
-            ]
-          },
-          { text: '常见问题', link: '/tech-support#faq' }
-        ]
-      },
       { text: '联系方式', link: '/contact' }
     ],
 

@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: SA-10：双平衡重锤 – Bray 美国博雷阀门
+category: 止回阀,配件
 ---
 
 ![](/2022/11/download-6.png)

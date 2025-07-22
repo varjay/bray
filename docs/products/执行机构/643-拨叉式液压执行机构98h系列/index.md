@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 拨叉式液压执行机构98H系列 – Bray 美国博雷阀门
+category: 执行机构,液压执行机构
 ---
 
 ![](/2022/10/download-7-1.png)

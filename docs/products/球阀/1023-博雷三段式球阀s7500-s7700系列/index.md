@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: S7500/S7700系列三段式球阀 – Bray 美国博雷阀门
+category: 球阀,三段式
 ---
 
 ![](/2022/10/download-19.png)

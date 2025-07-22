@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 博雷电磁阀线圈60系列 – Bray 美国博雷阀门
+category: 控制配件,电磁线圈
 ---
 
 ![](/2022/10/download-4.png)

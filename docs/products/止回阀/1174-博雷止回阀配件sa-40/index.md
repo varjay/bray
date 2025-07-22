@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 止回阀配件SA-40： 外部压缩弹簧 – Bray 美国博雷阀门
+category: 止回阀,配件
 ---
 
 ![](/2022/11/download-3-1.png)

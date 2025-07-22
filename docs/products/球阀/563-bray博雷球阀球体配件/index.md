@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 博雷球阀配件￼Resolute Ball™ – Bray 美国博雷阀门
+category: 球阀,配件
 ---
 
 ![](/2022/10/download-3.png)

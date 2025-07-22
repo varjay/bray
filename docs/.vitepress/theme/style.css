@@ -147,6 +147,7 @@ body {
 
 .VPNavBarMenuLink {
   padding: 0 12px;
+  font-size: 15px;
 }
 
 /* 调整导航栏元素顺序：菜单、搜索框、深色模式切换按钮 */
@@ -166,7 +167,23 @@ body {
   order: 1;
   flex: 1;
 }
-
+.VPNavBarMenu.menu > a, 
+.VPNavBarMenu.menu > div{
+  margin-right: 20px;
+}
+.VPNavBarMenu.menu > a.active span{
+  position: relative;
+  line-height: 40px;
+}
+.VPNavBarMenu.menu > a.active span::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -6px;
+  right: -6px;
+  height: 3px;
+  background-color: var(--vp-c-brand-1);
+}
 /* 搜索框放中间 */
 .VPNavBarSearch {
   order: 2;

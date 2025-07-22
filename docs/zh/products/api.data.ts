@@ -113,6 +113,7 @@ export default {
           directory: (dir.split('/').pop() || '').replace(/^\d+-/, '').replace(/^博雷/, '').replace(/^bray博雷/, ''),
           images,
           url: file.replace(/^docs/, '').replace(/\.md$/, '.html'),
+          category: content.match(/category: (.*)/)?.[1] || '',
         }
       })
       .filter((item) => item.images.length > 0)

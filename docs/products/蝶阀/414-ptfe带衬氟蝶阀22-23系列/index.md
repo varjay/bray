@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: PTFE带衬氟蝶阀22/23系列 – Bray 美国博雷阀门
+category: 蝶阀,弹性阀座式
 ---
 
 ![](/2022/09/download-7.png)

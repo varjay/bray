@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 止回阀配件SA-1：外部弹簧和重量 – Bray 美国博雷阀门
+category: 止回阀,配件
 ---
 
 ![](/2022/11/download-2-1.png)

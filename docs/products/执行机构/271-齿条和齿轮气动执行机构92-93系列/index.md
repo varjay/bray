@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 气动执行机构92/93系列 – Bray 美国博雷阀门
+category: 执行机构,气动执行机构
 ---
 
 ![](/2022/09/download.png)

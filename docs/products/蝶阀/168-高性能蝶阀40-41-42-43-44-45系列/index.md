@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 高性能蝶阀40/41/42/43/44/45系列 – Bray 美国博雷阀门
+category: 蝶阀,高性能
 ---
 
 ![](/2022/09/download-2-1.png)

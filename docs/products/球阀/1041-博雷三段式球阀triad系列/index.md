@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 三段式球阀Triad系列 – Bray 美国博雷阀门
+category: 球阀,三段式
 ---
 
 ![](/2022/11/download-3.png)

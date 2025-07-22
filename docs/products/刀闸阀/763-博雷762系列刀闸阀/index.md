@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 762系列双向刀闸阀 – Bray 美国博雷阀门
+category: 刀闸阀,双向
 ---
 
 ![](/2022/10/download-4-1.png)

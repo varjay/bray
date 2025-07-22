@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: MPF多端口球阀 – Bray 美国博雷阀门
+category: 球阀,多端口
 ---
 
 ![](/2022/10/download-1-11.jpg)
