@@ -26,6 +26,11 @@ import { productMenus } from '../config'
 </script>
 
 <style scoped>
+@media (min-width: 960px) {
+    .nav-content-container {
+        padding: 0 64px;
+    }
+}
 .custom-nav-item {
   display: flex;
   align-items: center;
@@ -51,9 +56,10 @@ import { productMenus } from '../config'
 
 .nav-content {
   display: none;
-  position: absolute;
-  top: 63px;
+  position: fixed;
+  top: 98px;
   left: 0;
+  right: 0;
   width: 100%;
   background-color: var(--vp-c-bg-soft);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -62,9 +68,9 @@ import { productMenus } from '../config'
 }
 
 .nav-content-container {
-  max-width: 1376px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 0 32px;
+  /* padding: 0 32px; */
 }
 
 .product-menu-layout {

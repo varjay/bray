@@ -266,7 +266,7 @@ body {
 /* 6. 响应式适配 */
 @media (min-width: 960px) {
   .VPDoc {
-    padding: 68px var(--content-padding) 0;
+    padding: 68px var(--content-padding) 0 !important;
   }
 }
 
