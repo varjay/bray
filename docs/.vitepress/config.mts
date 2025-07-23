@@ -30,14 +30,29 @@ export default defineConfig({
       { 
         text: '解决方案', 
         items: [
-          { text: '石油化工', link: '/solutions' },
-          { text: '市政工程', link: '/solutions' },
-          { text: '电力能源', link: '/solutions' },
-          { text: '冶金矿业', link: '/solutions' },
-          { text: '食品医药', link: '/solutions' }
+          { 
+            text: '行业',
+            items: [
+              { text: '化工和石油', link: '/zh/解决方案/行业/化工和石油' },
+              { text: '暖通空调', link: '/zh/解决方案/行业/暖通空调' },
+              { text: '食品和饮料', link: '/zh/解决方案/行业/食品和饮料' },
+              { text: '数据中心', link: '/zh/解决方案/行业/数据中心' },
+              { text: '水和废水处理', link: '/zh/解决方案/行业/水和废水处理' },
+              { text: '石油和天然气', link: '/zh/解决方案/行业/石油和天然气' }
+            ]
+          },
+          {
+             text: '综合解决方案', 
+             items: [
+              { text: '隔离', link: '/zh/解决方案/综合解决方案/隔离' },
+              { text: '自动化', link: '/zh/解决方案/综合解决方案/自动化' },
+              { text: '控制', link: '/zh/解决方案/综合解决方案/控制' },
+              { text: '以太网/IP', link: '/zh/解决方案/综合解决方案/以太网/IP' }
+             ]
+          },
         ]
       },
-      { text: '联系方式', link: '/contact' }
+      { text: '联系我们', link: '/contact-us' }
     ],
 
     sidebar: [

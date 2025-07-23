@@ -58,51 +58,6 @@ title: 联系我们
 
 如果您有任何问题、建议或合作意向，请填写以下表单，我们将尽快与您联系。
 
-<div class="contact-form">
-  <form>
-    <div class="form-group">
-      <label for="name">您的姓名 <span class="required">*</span></label>
-      <input type="text" id="name" name="name" required />
-    </div>
-    
-    <div class="form-group">
-      <label for="company">公司名称</label>
-      <input type="text" id="company" name="company" />
-    </div>
-    
-    <div class="form-group">
-      <label for="email">电子邮箱 <span class="required">*</span></label>
-      <input type="email" id="email" name="email" required />
-    </div>
-    
-    <div class="form-group">
-      <label for="phone">联系电话 <span class="required">*</span></label>
-      <input type="tel" id="phone" name="phone" required />
-    </div>
-    
-    <div class="form-group">
-      <label for="subject">主题 <span class="required">*</span></label>
-      <select id="subject" name="subject" required>
-        <option value="">-- 请选择 --</option>
-        <option value="产品咨询">产品咨询</option>
-        <option value="技术支持">技术支持</option>
-        <option value="售后服务">售后服务</option>
-        <option value="合作意向">合作意向</option>
-        <option value="其他">其他</option>
-      </select>
-    </div>
-    
-    <div class="form-group">
-      <label for="message">留言内容 <span class="required">*</span></label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-    </div>
-    
-    <div class="form-submit">
-      <button type="submit" class="submit-btn">提交</button>
-    </div>
-  </form>
-</div>
-
 <style>
 .contact-form {
   max-width: 600px;
@@ -159,12 +114,6 @@ textarea:focus {
   background-color: var(--vp-c-brand-dark);
 }
 </style>
-
-## 公司地图
-
-<div class="map-container">
-  <img src="/images/company-map.jpg" alt="公司地图" class="company-map" />
-</div>
 
 <style>
 .map-container {
