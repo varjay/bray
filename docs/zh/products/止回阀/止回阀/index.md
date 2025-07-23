@@ -5,7 +5,7 @@ outline: false
 ---
 
 <script setup>
-import AllProducts from '../AllProducts.vue'
+import AllProducts from '../../AllProducts.vue'
 </script>
 
 <AllProducts category="止回阀,止回阀" />
