@@ -154,29 +154,28 @@ function getSidebarMenus(): DefaultTheme.Sidebar {
    * 1. 如果是 /zh/products/ 则返回 第一层路径
    * 2. 如果是 其他 
    */
-  const baseMenu = [
-    {
-      text: '产品中心',
+  const baseMenu = {
+    '/zh/products': {
       items: [
-        { text: '球阀系列', link: '/products#球阀系列' },
-        { text: '闸阀系列', link: '/products#闸阀系列' },
-        { text: '蝶阀系列', link: '/products#蝶阀系列' },
-        { text: '定制服务', link: '/products#定制服务' }
-      ]
-    },
-    {
-      text: '关于博雷',
+      {
+        text: '产品类别',
+        items: productMenus
+      },
+    ]}
+  }
+
+  productMenus.forEach(item => {
+    baseMenu[item.link] = {
       items: [
-        { text: '公司简介', link: '/about-us#公司简介' },
-        { text: '企业文化', link: '/about-us#企业文化' },
-        { text: '生产能力', link: '/about-us#生产能力' },
-        { text: '质量管理', link: '/about-us#质量管理' },
-        { text: '研发创新', link: '/about-us#研发创新' }
-      ]
+      {
+        text: item.text,
+        items: item.items,
+      }
+    ]
     }
-  ]
-  console.log(baseMenu)
-  return baseMenu
+  })
+
+  return baseMenu as unknown as DefaultTheme.Sidebar
 }
 
 export const sidebarMenus = getSidebarMenus()

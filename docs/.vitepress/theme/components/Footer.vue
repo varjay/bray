@@ -8,7 +8,7 @@
           <div class="text-2xl mt-1 font-bold">专业的产品质量、技术支持、服务</div>
         </div>
         <div>
-          <a href="/products" class="px-6 py-2 bg-white text-primary font-semibold rounded hover:bg-gray-100 transition-colors">全部产品</a>
+          <a href="/zh/products" class="px-6 py-2 bg-white text-primary font-semibold rounded hover:bg-gray-100 transition-colors">全部产品</a>
         </div>
       </div>
     </div>
