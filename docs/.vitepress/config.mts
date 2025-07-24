@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import UnoCSS from 'unocss/vite'
-import { productMenus } from './theme/config'
+import {  productMenus, sidebarMenus } from './theme/config'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -20,11 +20,11 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '产品中心',
+        text: '产品',
         component: 'CustomNavItem',
       },
       { 
-        text: '产品中心', 
+        text: '产品', 
         items: productMenus
       },
       { 
@@ -55,27 +55,7 @@ export default defineConfig({
       { text: '联系我们', link: '/contact-us' }
     ],
 
-    sidebar: [
-      {
-        text: '产品中心',
-        items: [
-          { text: '球阀系列', link: '/products#球阀系列' },
-          { text: '闸阀系列', link: '/products#闸阀系列' },
-          { text: '蝶阀系列', link: '/products#蝶阀系列' },
-          { text: '定制服务', link: '/products#定制服务' }
-        ]
-      },
-      {
-        text: '关于博雷',
-        items: [
-          { text: '公司简介', link: '/about-us#公司简介' },
-          { text: '企业文化', link: '/about-us#企业文化' },
-          { text: '生产能力', link: '/about-us#生产能力' },
-          { text: '质量管理', link: '/about-us#质量管理' },
-          { text: '研发创新', link: '/about-us#研发创新' }
-        ]
-      }
-    ],
+    sidebar: sidebarMenus,
 
     socialLinks: [
       { icon: 'facebook', link: 'https://www.facebook.com/BrayInternational/' },
