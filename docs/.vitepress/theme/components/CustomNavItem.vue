@@ -1,16 +1,28 @@
+<script setup>
+import { ref } from 'vue'
+import { productMenus } from '../config'
+
+const showProductMenu = ref(false)
+
+function handleClick() {
+  console.log('handleClick')
+  showProductMenu.value = false
+}
+</script>
+
 <template>
-  <div class="custom-nav-item">
+  <div class="custom-nav-item" @mouseenter="showProductMenu = true" @mouseleave="showProductMenu = false">
     <span class="nav-text">产品</span>
-    <div class="nav-content">
+    <div v-show="showProductMenu" class="nav-content">
       <div class="nav-content-container">
         <div class="product-menu-layout">
           <div v-for="menu in productMenus" :key="menu.text" class="product-category">
             <h3 class="category-title">
-              <a :href="menu.link" class="category-link">{{ menu.text }}</a>
+              <a :href="menu.link" class="category-link" @click="handleClick">{{ menu.text }}</a>
             </h3>
             <div class="sub-menu-list">
               <div v-for="item in menu.items" :key="item.text" class="sub-menu-item">
-                <a v-if="item.link" :href="item.link" class="sub-menu-link">{{ item.text }}</a>
+                <a v-if="item.link" :href="item.link" class="sub-menu-link" @click="handleClick">{{ item.text }}</a>
                 <span v-else class="sub-menu-text">{{ item.text }}</span>
               </div>
             </div>
@@ -20,10 +32,6 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { productMenus } from '../config'
-</script>
 
 <style scoped>
 @media (min-width: 960px) {
@@ -45,17 +53,12 @@ import { productMenus } from '../config'
   color: var(--vp-c-brand);
 }
 
-.custom-nav-item:hover .nav-content {
-  display: block;
-}
-
 .nav-text {
   font-size: 14px;
   font-weight: 500;
 }
 
 .nav-content {
-  display: none;
   position: fixed;
   top: 98px;
   left: 0;
