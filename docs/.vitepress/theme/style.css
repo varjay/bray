@@ -22,7 +22,6 @@
   --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   --transition-normal: all 0.3s ease;
 }
-
 /* 2. 布局结构 */
 .VPDoc {
   padding: 32px 24px 96px;
@@ -69,6 +68,10 @@
 
 .VPNav .VPNavBar .content {
   justify-content: flex-start;
+}
+
+.VPNav .VPNavBar:not(.has-sidebar):not(.home.top) {
+  background-color: var(--vp-nav-bg-color);
 }
 
 .VPNavBarMenuLink {
@@ -133,6 +136,10 @@
 
 /* 社交链接图标 */
 .VPNavBarSocialLinks {
+  order: 4;
+}
+
+.VPNavBarExtra {
   order: 4;
 }
 
@@ -291,6 +298,9 @@ body {
   
   .custom-layout .VPContent {
     padding-top: 0;
+  }
+  .VPHomeFeatures {
+    margin-top: 24px;
   }
 }
 
