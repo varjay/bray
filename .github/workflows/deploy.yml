@@ -42,6 +42,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           source: docs/.vitepress/dist/
-          strip_components: 1 # 删除路径中的第一个组件（即 dist 文件夹）
+          strip_components: 3 # 删除路径中的第一个组件（即 dist 文件夹）
           target: /www/wwwroot/next.braycn.com/
           debug: true # 添加调试信息
