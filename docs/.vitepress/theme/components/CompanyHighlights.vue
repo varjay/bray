@@ -29,25 +29,25 @@ const highlights = [
     title: '高品质产品',
     description: '超过30年的设计经验，确保每个产品都达到最高标准',
     image: '/images/home-company-highlight1.jpg',
-    link: '/products'
+    link: '/zh/products'
   },
   {
     title: '全球服务网络',
     description: '在40多个国家和地区拥有分支机构，提供便捷服务',
     image: '/images/home-company-highlight2.jpg',
-    link: '/about-us'
+    link: '/contact-us'
   },
   {
     title: '定制解决方案',
     description: '根据客户需求提供定制化的流体控制解决方案',
     image: '/images/home-company-highlight3.jpg',
-    link: '/solutions'
+    link: '/zh/解决方案/行业/化工和石油/'
   },
   {
     title: '技术创新',
     description: '不断创新，引领流体控制技术的发展',
     image: '/images/home-company-highlight4.jpg',
-    link: '/about-us'
+    link: '/contact-us'
   }
 ]
 </script>

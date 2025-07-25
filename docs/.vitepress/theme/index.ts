@@ -17,9 +17,9 @@ const TopBar = defineComponent({
         h('div', { class: 'content' }, [
           h('div', { class: 'left' }, '欢迎访问博雷阀门官方网站'),
           h('div', { class: 'right' }, [
-            h('span', null, '联系电话: +86-21-12345678'),
+            h('span', null, '联系电话: +86-139-1744 4407'),
             h('span', { class: 'separator' }, '|'),
-            h('span', null, '邮箱: info@braycn.com')
+            h('span', null, '邮箱: 13917444407@163.com')
           ])
         ])
       ])
@@ -45,7 +45,7 @@ const Layout = defineComponent({
 export default {
   extends: DefaultTheme,
   Layout,
-  enhanceApp({ app, router, siteData }) {
+  enhanceApp({ app }) {
     // 注册自定义导航组件
     app.component('CustomNavItem', CustomNavItem)
   }

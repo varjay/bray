@@ -16,7 +16,7 @@ hero:
       link: /zh/products/
     - theme: alt
       text: 了解更多
-      link: /about-us
+      link: /contact-us
 
 features:
   - icon: <span class="i-material-symbols-location-on-rounded"></span>

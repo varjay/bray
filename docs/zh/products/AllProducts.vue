@@ -22,7 +22,7 @@ const products = (data as Product[]).filter(product => {
     if (categorys.length === 1) {
       return topLevel
     } else {
-      return topLevel && itemCategorys.find(item => categorys.includes(item))
+      return topLevel && itemCategorys.slice(1).find(item => categorys.includes(item))
     }
   }
   return true
