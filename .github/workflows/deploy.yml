@@ -31,7 +31,7 @@ jobs:
         run: npm run build
 
       - name: Verify dist folder
-        run: ls -la ./dist
+        run: ls -la ./docs/dist
 
       # Step 5: 部署到服务器
       - name: 上传到服务器
@@ -41,7 +41,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          source: /docs/dist/
+          source: docs/dist/
           strip_components: 1 # 删除路径中的第一个组件（即 dist 文件夹）
           target: /www/wwwroot/next.braycn.com/
           debug: true # 添加调试信息
