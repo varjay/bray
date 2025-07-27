@@ -1,7 +1,8 @@
 ---
-title: 产品
+title: 止回阀配件
 page: true
 outline: false
+pageType: list
 ---
 
 <script setup>

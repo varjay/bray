@@ -1,7 +1,8 @@
 ---
-title: 产品
+title: 过滤调压阀
 page: true
 outline: false
+pageType: list
 ---
 
 <script setup>

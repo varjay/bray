@@ -1,7 +1,8 @@
 ---
-title: 产品
+title: 气动执行机构
 page: true
 outline: false
+pageType: list
 ---
 
 <script setup>

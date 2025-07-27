@@ -1,7 +1,8 @@
 ---
-title: 产品
+title: 电磁线圈
 page: true
 outline: false
+pageType: list
 ---
 
 <script setup>

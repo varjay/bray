@@ -1,7 +1,8 @@
 ---
-title: 产品
+title: 接近式传感器
 page: true
 outline: false
+pageType: list
 ---
 
 <script setup>

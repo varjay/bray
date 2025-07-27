@@ -1,7 +1,8 @@
 ---
-title: 产品
+title: 电动执行器
 page: true
 outline: false
+pageType: list
 ---
 
 <script setup>

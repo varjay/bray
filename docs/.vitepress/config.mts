@@ -6,6 +6,13 @@ import {  productMenus, sidebarMenus } from './theme/config'
 export default defineConfig({
   title: "Bray 美国博雷阀门",
   description: "专业工业阀门制造商 - 高品质、可靠、专业的阀门解决方案",
+  head: [
+    // 无法生效
+    // [
+    //   'meta',
+    //   { name: 'viewport',content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }
+    // ]
+  ],
   vite: {
     plugins: [
       UnoCSS(),
@@ -17,6 +24,8 @@ export default defineConfig({
       src: '/logo.png',
       alt: 'Bray 美国博雷阀门',
     },
+    returnToTopLabel: '返回顶部',
+    sidebarMenuLabel: '分类目录',
     nav: [
       { text: '首页', link: '/' },
       {
@@ -56,6 +65,9 @@ export default defineConfig({
     ],
 
     sidebar: sidebarMenus,
+    outline: {
+      label: '本页目录'
+    },
 
     socialLinks: [
       { icon: 'facebook', link: 'https://www.facebook.com/BrayInternational/' },

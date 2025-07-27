@@ -1,7 +1,8 @@
 ---
-title: 产品
+title: 弹性阀座式蝶阀
 page: true
 outline: false
+pageType: list
 ---
 
 <script setup>

@@ -5,6 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 import Footer from './components/Footer.vue'
 import './style.css'
 import CustomNavItem from './components/CustomNavItem.vue'
+import ProductLayout from './ProductLayout.vue'
 
 // 导入UnoCSS
 import 'uno.css'
@@ -44,7 +45,7 @@ const Layout = defineComponent({
 
 export default {
   extends: DefaultTheme,
-  Layout,
+  Layout: ProductLayout,
   enhanceApp({ app }) {
     // 注册自定义导航组件
     app.component('CustomNavItem', CustomNavItem)

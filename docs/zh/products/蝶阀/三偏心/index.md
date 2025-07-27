@@ -1,7 +1,8 @@
 ---
-title: 产品
+title: 三偏心蝶阀
 page: true
 outline: false
+pageType: list
 ---
 
 <script setup>

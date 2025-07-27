@@ -32,31 +32,32 @@
   max-width: initial !important;
 }
 
-.VPSidebar {
+.VPSidebar:not(.open) {
   padding-top: calc(var(--top-bar-height) + var(--nav-height)) !important;
   background-color: transparent !important;
 }
 
-.VPDoc .aside,
-.VPSidebar .title,
-.VPSidebar .curtain {
+.product-list .VPDoc .aside {
   display: none !important;
 }
 
 /* 调整默认布局位置 */
-.custom-layout .VPNav {
+/* .custom-layout .VPNav {
   position: fixed;
   top: var(--top-bar-height);
   left: 0;
   right: 0;
   z-index: 99;
-}
+} */
 
 .custom-layout .VPContent {
   padding-top: var(--top-bar-height);
 }
 
 /* 3. 导航栏 */
+.VPNav {
+  background-color: var(--vp-nav-bg-color);
+}
 .VPNav .VPNavBar .container {
   margin: 0 auto;
   padding: 0 var(--content-padding);
@@ -64,6 +65,7 @@
 
 .VPNav .VPNavBar .container .title {
   padding-right: 24px;
+  height: calc(var(--vp-nav-height) + 1px);
 }
 
 .VPNav .VPNavBar .content {
@@ -224,9 +226,11 @@ body {
   background-size: cover;
   position: relative;
   color: white;
-  margin-top: calc(var(--top-bar-height) + var(--nav-height) - 34px) !important;
+  /* margin-top: calc(var(--top-bar-height) + var(--nav-height) - 34px) !important; */
 }
-
+.VPHomeHero .heading {
+  padding-top: 80px;
+}
 .VPHomeHero .tagline {
   color: white;
   font-size: 17px;
@@ -275,6 +279,9 @@ body {
   .VPDoc {
     padding: 68px var(--content-padding) 0 !important;
   }
+  .VPLocalNav {
+    top: calc(var(--vp-nav-height) + 36px) !important; 
+  }
 }
 
 @media (min-width: 768px) {
@@ -282,7 +289,7 @@ body {
     padding: 68px var(--content-padding) 128px;
   }
   
-  .VPNavBarMenu .VPNavBarMenuGroup:nth-child(4) {
+  .VPNavBarMenu .VPNavBarMenuGroup:nth-last-child(3) {
     display: none !important;
   }
 }

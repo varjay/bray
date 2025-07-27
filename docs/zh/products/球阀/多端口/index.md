@@ -1,7 +1,8 @@
 ---
-title: 产品
+title: 多端口球阀
 page: true
 outline: false
+pageType: list
 ---
 
 <script setup>
