@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import TopBar from './components/TopBar.vue'
+import Footer from './components/Footer.vue'
 
 const { Layout } = DefaultTheme
 
@@ -14,7 +15,10 @@ const { frontmatter } = useData()
     <template #layout-top>
       <TopBar />
     </template>
-    </Layout>
+    <template #layout-bottom>
+      <Footer />
+    </template>
+  </Layout>
 </template>
 
 <style>
