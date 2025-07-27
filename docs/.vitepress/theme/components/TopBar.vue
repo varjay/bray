@@ -6,9 +6,9 @@
           <span>欢迎访问博雷阀门官方网站</span>
         </div>
         <div class="right">
-          <span>联系电话: +86-21-12345678</span>
+          <span>联系电话: +86-139 1744 4407</span>
           <span class="separator">|</span>
-          <span>邮箱: info@braycn.com</span>
+          <span>邮箱: 13917444407@163.com</span>
         </div>
       </div>
     </div>
