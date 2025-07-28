@@ -28,9 +28,9 @@
   width: 100%;
 }
 
-.VPDoc .content-container {
+/* .VPDoc .content-container {
   max-width: initial !important;
-}
+} */
 
 .VPSidebar:not(.open) {
   padding-top: calc(var(--top-bar-height) + var(--nav-height)) !important;
@@ -217,6 +217,33 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+.doc-extend-content-change {
+  width: 100vw;
+  margin-left: -24px;
+}
+.doc-extend-content-change .doc-extend-content-change__content {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 640px;
+}
+@media (min-width: 768px) {
+  .doc-extend-content-change {
+    margin-left: -32px;
+  }
+  .doc-extend-content-change .doc-extend-content-change__content {
+    max-width: 688px;
+  }
+}
+@media (min-width: 1280px) {  
+  .doc-extend-content-change .doc-extend-content-change__content {
+    max-width: 930px;
+  }
+}
+@media (min-width: 1440px) {
+  .doc-extend-content-change .doc-extend-content-change__content {
+    max-width: 946px;
+  }
+}
 
 /* 5. 首页样式 */
 .VPHomeHero {
@@ -273,6 +300,10 @@ body {
 
 .VPHomeFeatures .VPFeature .details {
   color: #bbb;
+}
+/* 产品详情页样式 */
+.product-detail .aside-container {
+  top: 328px;
 }
 /* 6. 响应式适配 */
 @media (min-width: 960px) {

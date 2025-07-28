@@ -11,7 +11,13 @@ const { frontmatter } = useData()
 </script>
 
 <template>
-  <Layout :class="{ 'product-list': frontmatter.pageType === 'list' }" class="custom-layout">
+  <Layout 
+    :class="{ 
+      'product-list': frontmatter.pageType === 'list',
+      'product-detail': frontmatter.category
+    }"
+    class="custom-layout"
+  >
 
     <template #layout-top>
       <TopBar />
@@ -21,9 +27,11 @@ const { frontmatter } = useData()
       <Footer />
     </template>
 
-    <template #doc-before>
-      <div>
-        <h1>详细页顶部！！</h1>
+    <template v-if="frontmatter.category" #doc-top>
+      <div class="doc-extend-content-change bg-[#ececec] h-xs">
+        <div class="doc-extend-content-change__content">
+          <h1>详细页顶部！！</h1>
+        </div>
       </div>
     </template>
   </Layout>
