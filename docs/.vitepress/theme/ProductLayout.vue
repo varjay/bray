@@ -12,11 +12,19 @@ const { frontmatter } = useData()
 
 <template>
   <Layout :class="{ 'product-list': frontmatter.pageType === 'list' }" class="custom-layout">
+
     <template #layout-top>
       <TopBar />
     </template>
+
     <template #layout-bottom>
       <Footer />
+    </template>
+
+    <template #doc-before>
+      <div>
+        <h1>详细页顶部！！</h1>
+      </div>
     </template>
   </Layout>
 </template>
