@@ -11,19 +11,14 @@ interface Product {
   directory: string
   images: string[]
   url: string
-  category: string
+  category: string[]
 }
 
 const products = (data as Product[]).filter(product => {
-  if (props.category) {
-    const categorys = props.category.split(',')
-    const itemCategorys = product.category.split(',')
-    const topLevel = categorys[0] === itemCategorys[0]
-    if (categorys.length === 1) {
-      return topLevel
-    } else {
-      return topLevel && itemCategorys.slice(1).find(item => categorys.includes(item))
-    }
+  if (props.category.split(',').length === 1) {
+    return product.category.find(item => item.split(',')[0] === props.category)
+  } else {
+    return product.category.indexOf(props.category) !== -1
   }
   return true
 })

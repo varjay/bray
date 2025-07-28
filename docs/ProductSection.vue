@@ -33,7 +33,6 @@ import ProductCard from './ProductCard.vue'
 import { data } from './zh/products/api.data'
 
 const products = data.slice(0, 3)
-console.log(products)
 
 </script>
 

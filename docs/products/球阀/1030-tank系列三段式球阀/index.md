@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Tank系列三段式球阀 – Bray 美国博雷阀门
-category: 球阀,控制阀,三段式
+category: 球阀,三段式;控制阀,球阀
 ---
 
 ![](/2022/11/download.png)

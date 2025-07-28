@@ -9,4 +9,4 @@ pageType: list
 import AllProducts from '../AllProducts.vue'
 </script>
 
-<AllProducts category="蝶阀,控制阀" />
+<AllProducts category="控制阀,蝶阀" />
