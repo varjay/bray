@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import TopBar from './components/TopBar.vue'
 import Footer from './components/Footer.vue'
+import ProductDetail from './components/ProductDetail.vue'
 
 const { Layout } = DefaultTheme
 
@@ -28,9 +29,9 @@ const { frontmatter } = useData()
     </template>
 
     <template v-if="frontmatter.category" #doc-top>
-      <div class="doc-extend-content-change bg-[#ececec] h-xs">
-        <div class="doc-extend-content-change__content">
-          <h1>详细页顶部！！</h1>
+      <div class="doc-extend-content-change bg-[#f5f5f5]">
+        <div class="doc-extend-content-change__content container">
+          <ProductDetail />
         </div>
       </div>
     </template>

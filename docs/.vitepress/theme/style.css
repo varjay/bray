@@ -37,10 +37,6 @@
   background-color: transparent !important;
 }
 
-.product-list .VPDoc .aside {
-  display: none !important;
-}
-
 /* 调整默认布局位置 */
 /* .custom-layout .VPNav {
   position: fixed;
@@ -301,9 +297,19 @@ body {
 .VPHomeFeatures .VPFeature .details {
   color: #bbb;
 }
+
+/* 产品列表页样式 */
+.product-list .content-container {
+  max-width: 100% !important;
+}
+.product-list .VPDoc .aside {
+  display: none !important;
+}
+
 /* 产品详情页样式 */
 .product-detail .aside-container {
-  top: 328px;
+  position: initial !important;
+  padding-top: 26px;
 }
 /* 6. 响应式适配 */
 @media (min-width: 960px) {
