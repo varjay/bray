@@ -33,7 +33,7 @@ function changeImage(img) {
 // 获取产品分类
 const categories = computed(() => {
   if (!frontmatter.value.category) return []
-  return frontmatter.value.category.split(',').map(item => item.trim())
+  return frontmatter.value.category.split(';').map(item => item.split(','))
 })
 
 // 获取产品型号
@@ -58,8 +58,8 @@ const desc = computed(() => {
   <div class="product-detail-container">
     <div class="product-info">
       <div class="product-category">
-        <a :href="`/zh/products/${categories.join('/')}`" :title="`美国博雷${categories.toReversed().join('')}`" class="category-tag">
-          {{ categories.toReversed().join('') }}
+        <a v-for="d in categories" :href="`/zh/products/${d.join('/')}`" :title="`美国博雷${d.toReversed().join('')}`" class="category-tag">
+          {{ d.toReversed().join('') }}
         </a>
       </div>
       
