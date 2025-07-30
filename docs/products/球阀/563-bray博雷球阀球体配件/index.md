@@ -2,9 +2,9 @@
 layout: doc
 title: 博雷球阀配件￼Resolute Ball™ – Bray 美国博雷阀门
 category: 球阀,配件
+imgs:
+  - /2022/10/download-3.png
 ---
-
-![](/2022/10/download-3.png)
 
 **Bray 博雷球阀 F15/F30 系列阀门配件**
 

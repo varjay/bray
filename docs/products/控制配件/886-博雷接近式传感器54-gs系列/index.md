@@ -2,9 +2,9 @@
 layout: doc
 title: 54-GS系列接近式传感器 – Bray 美国博雷阀门
 category: 控制配件,接近式传感器
+imgs:
+  - /2022/10/download-17.jpg
 ---
-
-![](/2022/10/download-17.jpg)
 
 **Bray 博雷 54-GS 系列接近式传感器**
 

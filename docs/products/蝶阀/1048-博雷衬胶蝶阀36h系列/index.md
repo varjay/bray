@@ -2,9 +2,9 @@
 layout: doc
 title: 36H系列衬胶蝶阀 – Bray 美国博雷阀门
 category: 蝶阀,弹性阀座式;控制阀,球阀
+imgs:
+  - /2022/11/download-1.png
 ---
-
-![](/2022/11/download-1.png)
 
 **Bray 博雷衬胶蝶阀 36H 系列**
 

@@ -2,9 +2,9 @@
 layout: doc
 title: "止回阀配件PEZ SA-4AX: PVC – Bray 美国博雷阀门"
 category: 止回阀,配件
+imgs:
+  - /2022/11/download-9.png
 ---
-
-![](/2022/11/download-9.png)
 
 ## Bray 博雷阀门 PEZ SA-4AX: PVC 止回阀配件
 

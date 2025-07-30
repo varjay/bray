@@ -2,9 +2,9 @@
 layout: doc
 title: 法兰式球阀F15/F30 MS系列 – Bray 美国博雷阀门
 category: 球阀,法兰式
+imgs:
+  - /2022/10/download.png
 ---
-
-![](/2022/10/download.png)
 
 **Bray 博雷阀门法兰球阀 F15/F30 MS 系列**
 

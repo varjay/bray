@@ -2,9 +2,9 @@
 layout: doc
 title: 博雷固定式球阀 – Bray 美国博雷阀门
 category: 球阀,固定式
+imgs:
+  - /2022/10/download-2-4.png
 ---
-
-![](/2022/10/download-2-4.png)
 
 **Bray 博雷阀门固定式球阀**
 

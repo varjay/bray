@@ -2,9 +2,9 @@
 layout: doc
 title: 博雷止回阀Rite – Bray 美国博雷阀门
 category: 止回阀
+imgs:
+  - /2022/09/download-7-1.png
 ---
-
-![](/2022/09/download-7-1.png)
 
 # Bray 博雷止回阀
 

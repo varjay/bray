@@ -2,9 +2,9 @@
 layout: doc
 title: V型控制球阀 – Bray 美国博雷阀门
 category: 球阀,法兰式;控制阀,球阀
+imgs:
+  - /2022/10/download-9-5.png
 ---
-
-![](/2022/10/download-9-5.png)
 
 **Bray 博雷阀门 V 型控制球阀**
 

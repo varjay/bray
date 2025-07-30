@@ -2,9 +2,9 @@
 layout: doc
 title: M1系列恶劣工况球阀 – Bray 美国博雷阀门
 category: 球阀,恶劣工况;控制阀,球阀
+imgs:
+  - /2022/10/download-9-6.png
 ---
-
-![](/2022/10/download-9-6.png)
 
 **Bray 博雷阀门 M1 系列恶劣工况球阀**
 

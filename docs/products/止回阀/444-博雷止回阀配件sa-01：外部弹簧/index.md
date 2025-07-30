@@ -2,9 +2,9 @@
 layout: doc
 title: Bray止回阀配件SA-01：外部弹簧 – Bray 美国博雷阀门
 category: 止回阀,配件
+imgs:
+  - /2022/09/download-8.png
 ---
-
-![](/2022/09/download-8.png)
 
 **Bray 博雷阀门 SA-01：外部弹簧**
 

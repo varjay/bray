@@ -2,9 +2,9 @@
 layout: doc
 title: 衬胶蝶阀31U系列 – Bray 美国博雷阀门
 category: 蝶阀,弹性阀座式
+imgs:
+  - /2022/10/download-9.png
 ---
-
-![](/2022/10/download-9.png)
 
 **Bray 博雷阀门 31U 系列衬胶蝶阀**
 

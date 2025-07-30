@@ -2,9 +2,9 @@
 layout: doc
 title: 衬胶蝶阀32/33系列 – Bray 美国博雷阀门
 category: 蝶阀,弹性阀座式;控制阀,球阀
+imgs:
+  - /2022/10/download-7-2.png
 ---
-
-![](/2022/10/download-7-2.png)
 
 **Bray 博雷阀门 32/33 系列衬胶蝶阀**
 

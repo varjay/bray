@@ -2,9 +2,9 @@
 layout: doc
 title: 电动执行机构70-HAZ系列 – Bray 美国博雷阀门
 category: 执行机构,电动执行机构
+imgs:
+  - /2022/09/download-3.png
 ---
-
-![](/2022/09/download-3.png)
 
 ## Bray 博雷阀门电动执行机构  – 70-HAZ 系列
 

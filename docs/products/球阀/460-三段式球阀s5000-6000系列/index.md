@@ -2,9 +2,9 @@
 layout: doc
 title: 三段式球阀S5000/6000系列 – Bray 美国博雷阀门
 category: 球阀,三段式;球阀,螺纹式
+imgs:
+  - /2022/09/download-7-2.png
 ---
-
-![](/2022/09/download-7-2.png)
 
 **Bray 博雷阀门 Flow-Tek 5000/6000 三段式球阀**
 

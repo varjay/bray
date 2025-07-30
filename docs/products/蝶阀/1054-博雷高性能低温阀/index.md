@@ -2,9 +2,9 @@
 layout: doc
 title: 高性能McCannalok低温阀 – Bray 美国博雷阀门
 category: 蝶阀,高性能;控制阀,球阀
+imgs:
+  - /2022/11/download-4.png
 ---
-
-![](/2022/11/download-4.png)
 
 **Bray 博雷高性能低温阀 McCannalok**
 

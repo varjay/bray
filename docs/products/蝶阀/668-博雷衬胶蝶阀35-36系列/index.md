@@ -2,9 +2,9 @@
 layout: doc
 title: 衬胶蝶阀35/36系列 – Bray 美国博雷阀门
 category: 蝶阀,弹性阀座式;控制阀,球阀
+imgs:
+  - /2022/10/download-8-1.png
 ---
-
-![](/2022/10/download-8-1.png)
 
 **Bray 博雷衬胶蝶阀 35/36 系列**
 

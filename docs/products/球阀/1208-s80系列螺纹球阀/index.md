@@ -2,9 +2,9 @@
 layout: doc
 title: S80系列螺纹球阀 – Bray 美国博雷阀门
 category: 球阀,螺纹式
+imgs:
+  - /2022/12/download-3.png
 ---
-
-![](/2022/12/download-3.png)
 
 **Bray 博雷 S80 系列螺纹球阀**
 
