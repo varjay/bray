@@ -204,14 +204,17 @@ const desc = computed(() => {
 @media (max-width: 768px) {
   .product-detail-container {
     flex-direction: column-reverse;
+    padding: 0;
+    gap: 0;
   }
   
   .product-info {
     max-width: 100%;
+    gap: 0.5rem;
   }
-  
-  .product-image {
-    margin-bottom: 1.5rem;
+
+  .product-image img {
+    height: 240px;
   }
 }
 </style> 

@@ -3,13 +3,25 @@
     <div class="container">
       <div class="content">
         <div class="left">
-          <span>欢迎访问博雷阀门官方网站</span>
+          <span>欢迎访问博雷阀门网站</span>
         </div>
         <div class="right">
-          <span class="desktop-only">联系电话: +86-139 1744 4407</span>
+          <span class="desktop-only">
+            <span class="inline-block v-sub i-mynaui-telephone-call-solid"></span>
+            +86-139 1744 4407
+          </span>
           <span class="separator desktop-only">|</span>
-          <span class="desktop-only">邮箱: 13917444407@163.com</span>
-          <span class="mobile-only">电话: 139 1744 4407 <span class="separator">|</span> 13917444407@163.com</span>
+          <span class="desktop-only">
+            <span class="inline-block v-sub i-material-symbols:mail"></span>
+            13917444407@163.com
+          </span>
+          <span class="mobile-only">
+            <span class="inline-block v-sub i-mynaui-telephone-call-solid"></span>
+            139 1744 4407
+            <span class="separator ml-2 mr-3">|</span>
+            <span class="inline-block v-sub i-material-symbols:mail"></span>
+            13917444407@163.com
+          </span>
         </div>
       </div>
     </div>
