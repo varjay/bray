@@ -17,6 +17,10 @@ export default defineConfig({
     plugins: [
       UnoCSS(),
     ],
+    define: {
+      'K_PREFIX': JSON.stringify('美国博雷'),
+      'K_SUBFIX': JSON.stringify('Bray 美国博雷阀门'),
+    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -75,11 +79,10 @@ export default defineConfig({
       { icon: 'linkedin', link: 'https://www.linkedin.com/company/bray-controls/' },
       { icon: 'youtube', link: 'https://www.youtube.com/c/BrayInt' }
     ],
-    
-    
+
     // 添加本地搜索配置
     search: {
       provider: 'local'
     },
-  }
+  },
 })
