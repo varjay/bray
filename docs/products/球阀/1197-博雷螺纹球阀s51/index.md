@@ -6,7 +6,7 @@ imgs:
   - /2022/12/download-4.png
 ---
 
-**Bray 博雷螺纹球阀 S51**
+## Bray 博雷螺纹球阀 S51
 
 技术规格
 

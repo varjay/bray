@@ -6,7 +6,7 @@ imgs:
   - /2022/09/download-7-2.png
 ---
 
-**Bray 博雷阀门 Flow-Tek 5000/6000 三段式球阀**
+## Bray 博雷阀门 Flow-Tek 5000/6000 三段式球阀
 
 **技术规格**
 

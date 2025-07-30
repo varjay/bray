@@ -6,7 +6,7 @@ imgs:
   - /2022/10/download-1-11.jpg
 ---
 
-**Bray 博雷多端口球阀 MPF**
+## Bray 博雷多端口球阀 MPF
 
 技术规格
 

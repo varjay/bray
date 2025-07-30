@@ -6,7 +6,7 @@ imgs:
   - /2022/11/download.png
 ---
 
-**Bray 博雷三段式球阀 Tank 系列**
+## Bray 博雷三段式球阀 Tank 系列
 
 技术规格
 

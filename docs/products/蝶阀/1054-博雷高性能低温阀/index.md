@@ -6,7 +6,7 @@ imgs:
   - /2022/11/download-4.png
 ---
 
-**Bray 博雷高性能低温阀 McCannalok**
+## Bray 博雷高性能低温阀 McCannalok
 
 技术规格
 

@@ -6,7 +6,7 @@ imgs:
   - /2022/10/download-3.jpg
 ---
 
-**Bray 博雷阀门 RF15/RF30 系列球阀**
+## Bray 博雷阀门 RF15/RF30 系列球阀
 
 **技术规格**
 
