@@ -80,6 +80,6 @@ export default defineConfig({
     // 添加本地搜索配置
     search: {
       provider: 'local'
-    }
+    },
   }
 })

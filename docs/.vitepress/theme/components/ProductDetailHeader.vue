@@ -58,9 +58,9 @@ const desc = computed(() => {
   <div class="product-detail-container">
     <div class="product-info">
       <div class="product-category">
-        <span v-for="(category, index) in categories" :key="index" class="category-tag">
-          {{ category }}
-        </span>
+        <a :href="`/zh/products/${categories.join('/')}`" :title="`美国博雷${categories.toReversed().join('')}`" class="category-tag">
+          {{ categories.toReversed().join('') }}
+        </a>
       </div>
       
       <div class="product-model">
@@ -146,9 +146,6 @@ const desc = computed(() => {
 }
 
 .category-tag {
-  background-color: #f0f0f0;
-  padding: 0.25rem 0.75rem;
-  border-radius: 16px;
   font-size: 0.875rem;
   color: #666;
 }
