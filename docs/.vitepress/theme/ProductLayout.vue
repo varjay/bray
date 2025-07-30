@@ -29,7 +29,7 @@ const { frontmatter } = useData()
     </template>
 
     <template v-if="frontmatter.category" #doc-top>
-      <div class="doc-extend-content-change bg-[#f5f5f5]">
+      <div class="doc-extend-content-change">
         <div class="doc-extend-content-change__content container">
           <ProductDetailHeader />
         </div>
@@ -48,5 +48,9 @@ const { frontmatter } = useData()
     top: 0;
     z-index: 30;
   }
+}
+
+.doc-extend-content-change {
+  background-color: var(--vp-c-bg-soft);
 }
 </style>

@@ -79,20 +79,30 @@ function extractTitle(content: string, filename: string) {
 function extractImages(content: string): string[] {
     const images: string[] = [];
     
-    // 匹配 ![alt](src) 格式的图片
-    const markdownImageRegex = /!\[.*?\]\((.*?)\)/g;
-    let match;
-    while ((match = markdownImageRegex.exec(content)) !== null) {
-        if (match[1]) {
-            images.push(match[1]);
-        }
-    }
+    // 从 frontmatter 的 imgs 字段获取图片
+    const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/)!;
+    const frontmatter = frontmatterMatch[1];
     
-    // 匹配 HTML img 标签
-    const htmlImageRegex = /<img[^>]+src="([^"]+)"/gi;
-    while ((match = htmlImageRegex.exec(content)) !== null) {
-        if (match[1]) {
-            images.push(match[1]);
+    // 匹配imgs字段，支持多种格式
+    // 1. 查找imgs:行
+    const imgsLine = frontmatter.match(/imgs:\s*(.*)/);
+    if (imgsLine) {
+        if (imgsLine[1].trim()) {
+            // 如果imgs:后面直接跟着内容，可能是单张图片
+            images.push(imgsLine[1].trim().replace(/^-/, ''));
+        } else {
+            // 如果imgs:后面是换行，则查找列表项
+            const imgsList = frontmatter.match(/imgs:\s*\n((\s*-\s*.*\n*)+)/);
+            if (imgsList && imgsList[1]) {
+                // 分割成行并处理每一行
+                const lines = imgsList[1].split('\n');
+                lines.forEach(line => {
+                    const imgPath = line.match(/\s*-\s*(.*)/);
+                    if (imgPath && imgPath[1] && imgPath[1].trim()) {
+                      images.push(imgPath[1].trim().replace(/^-/, ''));
+                    }
+                });
+            }
         }
     }
     

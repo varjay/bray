@@ -13,7 +13,7 @@ interface Product {
   url: string
   category: string[]
 }
-
+console.log(data)
 const products = (data as Product[]).filter(product => {
   if (props.category.split(',').length === 1) {
     return product.category.find(item => item.split(',')[0] === props.category)
@@ -26,87 +26,20 @@ console.log(products)
 </script>
 
 <template>
-  <div class="products-container">
-    <div class="products-grid">
-      <a v-for="product in products" :key="product.title" class="product-card" :href="product.url">
-        <div class="product-image">
-          <img v-if="product.images && product.images.length" :src="product.images[0]" :alt="product.title">
+  <div class="max-w-1200px mx-auto p-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <a v-for="product in products" :key="product.title" class="flex flex-col rounded-lg overflow-hidden dark:shadow-gray-800 transition-all duration-300 hover:translate-y-[-5px] text-inherit h-full bg-white dark:bg-gray-800 no-underline!" :href="product.url">
+        <div class="h-200px overflow-hidden bg-gray-100 dark:bg-gray-700">
+          <img v-if="product.images && product.images.length" :src="product.images[0]" :alt="product.title" class="w-full h-full object-contain">
         </div>
-        <div class="product-directory">{{ product.directory }}</div>
-        <div class="product-title">{{ product.title }}</div>
+        <!-- <div class="p-4 text-base text-gray-600 dark:text-gray-400 font-medium bg-gray-50 dark:bg-gray-900 text-center">{{ product.directory }}</div> -->
+        <div class="py-1 text-center bg-gray-50 dark:bg-gray-900">
+          <a v-for="d in product.category" :href="`/zh/products/${d.replace(',', '/')}`" class="category-tag mr-2 text-gray-600 dark:text-gray-400 no-underline!">
+            {{ d.split(',').reverse().join('') }}
+          </a>
+        </div>
+        <div class="p-4 pb-5 text-lg font-bold text-gray-800 dark:text-gray-100 flex-grow text-center">{{ product.title }}</div>
       </a>
     </div>
   </div>
 </template>
-
-<style scoped>
-.products-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.products-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.product-card {
-  display: flex;
-  flex-direction: column;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-  text-decoration: none;
-  color: inherit;
-  height: 100%;
-}
-
-.product-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.product-image {
-  height: 200px;
-  overflow: hidden;
-  background-color: #f5f5f5;
-}
-
-.product-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.product-directory {
-  padding: 10px 15px;
-  font-size: 16px;
-  color: #666;
-  font-weight: 500;
-  background-color: #f9f9f9;
-}
-
-.product-title {
-  padding: 10px 15px 15px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #333;
-  flex-grow: 1;
-}
-
-/* 响应式布局 */
-@media (max-width: 1024px) {
-  .products-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 640px) {
-  .products-grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>

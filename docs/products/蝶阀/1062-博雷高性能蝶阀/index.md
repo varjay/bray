@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: 高性能蝶阀41R系列 – Bray 美国博雷阀门
-category: 蝶阀,高性能;控制阀,球阀
+category: 蝶阀,高性能;控制阀,蝶阀
 imgs:
   - /2022/11/download-5.png
 ---

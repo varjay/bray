@@ -110,6 +110,7 @@ const desc = computed(() => {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  justify-content: center;
 }
 
 .product-image {
@@ -133,9 +134,9 @@ const desc = computed(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f5f5f5;
+  background-color: var(--vp-c-bg-soft);
   border-radius: 4px;
-  color: #999;
+  color: var(--vp-c-text-2);
   font-size: 1.2rem;
 }
 
@@ -147,25 +148,25 @@ const desc = computed(() => {
 
 .category-tag {
   font-size: 0.875rem;
-  color: #666;
+  color: var(--vp-c-text-2);
 }
 
 .product-model h2 {
   margin: 0;
   font-size: 1.75rem;
-  color: #333;
+  color: var(--vp-c-text-1);
   font-weight: 600;
 }
 
 .product-model h3 {
   margin: 0.5rem 0 0;
   font-size: 1rem;
-  color: #666;
+  color: var(--vp-c-text-2);
   font-weight: normal;
 }
 
 .product-description {
-  color: #555;
+  color: var(--vp-c-text-2);
   line-height: 1.6;
 }
 
@@ -192,7 +193,7 @@ const desc = computed(() => {
 }
 
 .thumbnail.active {
-  border-color: #0066cc;
+  border-color: var(--vp-c-brand);
 }
 
 .thumbnail img {

@@ -37,7 +37,6 @@
   display: flex;
   align-items: center;
   width: 100%;
-  position: relative;
   z-index: 33;
 }
 
@@ -74,6 +73,7 @@
   .top-bar {
     height: auto;
     padding: 8px 0;
+    position: relative;
   }
   
   .left {

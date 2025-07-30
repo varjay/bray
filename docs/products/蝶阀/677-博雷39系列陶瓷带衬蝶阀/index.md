@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: 陶瓷带衬蝶阀39系列 – Bray 美国博雷阀门
-category: 蝶阀,弹性阀座式;控制阀,球阀
+category: 蝶阀,弹性阀座式;控制阀,蝶阀
 imgs:
   - /2022/10/download-9-1.png
 ---
