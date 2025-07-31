@@ -122,7 +122,7 @@ export default {
           title: extractTitle(content, name+'.md').replace(/^bray-/, '').replace(/^博雷-/, ''),
           directory: (dir.split('/').pop() || '').replace(/^\d+-/, '').replace(/^博雷/, '').replace(/^bray博雷/, ''),
           images,
-          url: file.replace(/^docs/, '').replace(/\.md$/, '.html'),
+          url: file.replace(/^docs/, '').replace(/index\.md$/, ''),
           category: content.match(/category: (.*)/)?.[1].split(';') || [],
         }
       })
