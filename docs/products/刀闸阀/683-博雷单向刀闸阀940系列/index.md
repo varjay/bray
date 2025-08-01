@@ -3,7 +3,7 @@ layout: doc
 title: 单向刀闸阀940系列 – Bray 美国博雷阀门
 category: 刀闸阀,单向
 imgs:
-  - /2022/10/download-9-2.png
+  - /2022/10/download-9-2.webp
 desc: 经认证的单向阀，具备卓越密封性能和最佳生产效率
 ---
 
