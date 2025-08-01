@@ -349,6 +349,9 @@ body {
   .VPHomeFeatures {
     margin-top: 24px;
   }
+  .vp-doc .VPTeamMembers.medium.count-1 .container {
+    max-width: 100% !important;
+  }
 }
 
 @media (max-width: 767px) {

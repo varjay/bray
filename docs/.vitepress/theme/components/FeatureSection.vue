@@ -27,7 +27,7 @@ const features = [
     <div class="text-center text-sm text-gray-900 dark:text-gray-300">纵观历史，通过生产具有超高价值和品质的产品、个性化的客户服务，以及准时的交货，赢得了卓越声誉。一个全面集成、能满足加工行业真正需要，且具有创新设计的产品线，始终是关键的要素。</div>
     <div class="mt-3 py-10">
       <div class="container mx-auto">
-        <div class="feature-section-cards flex flex-wrap justify-between">
+        <div class="feature-section-cards flex flex-wrap justify-between gap-5">
           <FeatureCard 
             v-for="feature in features" 
             :key="feature.title"

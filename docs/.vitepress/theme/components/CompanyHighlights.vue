@@ -1,5 +1,5 @@
 <template>
-  <div class="company-highlights full-width-container">
+  <div class="company-highlights full-width-container bg-gray-100 dark:bg-gray-800">
     <div class="container mx-auto py-12">
       <div class="text-center text-base font-bold text-primary">COMPANY</div>
       <div class="text-center text-4xl font-bold mb-3">为什么选择博雷阀门</div>
@@ -65,7 +65,7 @@ const highlights = [
 }
 
 .company-highlights{
-  background-color: #f0f2f6;
+  /* 背景颜色通过类名直接应用 */
 }
 
 @media (max-width: 1024px) {
@@ -77,6 +77,7 @@ const highlights = [
 @media (max-width: 640px) {
   .highlights-grid {
     grid-template-columns: 1fr;
+    padding: 0 24px;
   }
 }
 
