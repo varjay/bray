@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import UnoCSS from 'unocss/vite'
 import { productMenus, sidebarMenus } from './theme/config'
+import { La51Plugin } from 'vitepress-plugin-51la'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -78,7 +79,13 @@ export default defineConfig({
   ],
   lang: 'zh-CN',
   vite: {
-    plugins: [UnoCSS()],
+    plugins: [
+      UnoCSS(),
+      La51Plugin({
+        id: '3Mz88un7J63XQmNO',
+        ck: '3Mz88un7J63XQmNO',
+      }),
+    ],
     define: {
       K_PREFIX: JSON.stringify('美国博雷'),
       K_SUBFIX: JSON.stringify('Bray 美国博雷阀门'),

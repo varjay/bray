@@ -3,8 +3,8 @@ layout: doc
 title: 衬胶蝶阀 30/31系列 – Bray 美国博雷阀门
 category: 蝶阀,弹性阀座式
 imgs:
-  - /products/蝶阀/106-衬胶蝶阀/s30-31.webp
-  - /products/蝶阀/106-衬胶蝶阀/s30-31_6in_150_catalog04.webp
+  - /2025/08/s30-31.webp
+  - /2025/08/s30-31_6in_150_catalog04.webp
 desc: 按照ISO 9001质量保证程序的书面规定进行制造、组装和测试​​​​​
 ---
 
