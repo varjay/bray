@@ -84,6 +84,7 @@ export default defineConfig({
       La51Plugin({
         id: '3Mz88un7J63XQmNO',
         ck: '3Mz88un7J63XQmNO',
+        importMode: 'async',
       }),
     ],
     define: {
