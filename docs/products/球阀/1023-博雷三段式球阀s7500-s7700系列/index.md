@@ -3,7 +3,7 @@ layout: doc
 title: S7500/S7700系列三段式球阀 – Bray 美国博雷阀门
 category: 球阀,三段式
 imgs:
-  - /products/球阀/1023-博雷三段式球阀s7500-s7700系列/s7700.webp
+  - /2025/08/s7700.webp
 desc: Bray 博雷三段式球阀 S7500/S7700 系列专为高纯度应用设计，根据 ASME BPE 规范制造，具有零泄漏密封等级和全排放能力。
 ---
 

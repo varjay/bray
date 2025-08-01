@@ -13,16 +13,18 @@ interface Product {
   url: string
   category: string[]
 }
-console.log(data)
+
 const products = (data as Product[]).filter(product => {
-  if (props.category.split(',').length === 1) {
+  if (!props.category) {
+    return true
+  }
+  else if (props.category.split(',').length === 1) {
     return product.category.find(item => item.split(',')[0] === props.category)
   } else {
     return product.category.indexOf(props.category) !== -1
   }
-  return true
 })
-console.log(products)
+
 </script>
 
 <template>
