@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 54-HS系列接近式传感器 – Bray 美国博雷阀门
+title: 54-HS系列接近式传感器
 category: 控制配件,接近式传感器
 imgs:
   - /2022/10/download-1-12.jpg

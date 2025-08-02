@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: S51螺纹球阀 – Bray 美国博雷阀门
+title: S51螺纹球阀
 category: 球阀,螺纹式
 imgs:
   - /2022/12/download-4.png

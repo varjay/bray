@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 单向刀闸阀941系列 – Bray 美国博雷阀门
+title: 单向刀闸阀941系列
 category: 刀闸阀,单向
 imgs:
   - /2025/08/2025_941_knifegate_homehero_30000.webp

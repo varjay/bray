@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 博雷对夹旋启式止回阀双门 – Bray 美国博雷阀门
+title: 博雷对夹旋启式止回阀双门
 category: 止回阀
 imgs:
   - /2022/09/download-6.png

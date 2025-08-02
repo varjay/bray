@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 博雷智能定位器6A系列 – Bray 美国博雷阀门
+title: 博雷智能定位器6A系列
 category: 控制配件,定位器
 imgs:
   - /2022/10/download-2.png

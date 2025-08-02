@@ -1,9 +1,11 @@
 ---
 layout: doc
-title: 手操器04系列 – Bray 美国博雷阀门
+title: 手操器04系列
 category: 执行机构,手操器
 imgs:
-  - /2022/10/download-7.png
+  - /2025/08/s04-0300_library_01.webp
+  - /2025/08/s04-0300_gearop_s30-31_homehero_01.webp
+desc: 重型手动齿轮执行机构，适用于严苛应用场景下的可靠阀门控制
 ---
 
 ## Bray 博雷阀门手操器 04 系列（手动蜗轮）

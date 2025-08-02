@@ -1,9 +1,12 @@
 ---
 layout: doc
-title: 54系列接近式传感器 – Bray 美国博雷阀门
+title: 54系列接近式传感器
 category: 控制配件,接近式传感器
 imgs:
-  - /2022/10/download-1-8.jpg
+  - /2025/08/s54_is_thumbnail_exp_04.webp
+  - /2025/08/s54_exp_02.webp
+  - /2025/08/s54_s30-31_homehero_04-copy-600x600.webp
+desc: 耐久型接近式传感器，适用于恶劣工业环境下的阀门监测
 ---
 
 ## Bray 博雷阀门 54 系列接近式传感器

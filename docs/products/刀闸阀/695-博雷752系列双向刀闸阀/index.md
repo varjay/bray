@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 双向刀闸阀752系列 – Bray 美国博雷阀门
+title: 双向刀闸阀752系列
 category: 刀闸阀,双向
 imgs:
   - /2025/08/752_knifegate_homehero_2.webp

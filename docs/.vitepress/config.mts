@@ -7,6 +7,10 @@ import { La51Plugin } from 'vitepress-plugin-51la'
 export default defineConfig({
   title: 'Bray 美国博雷阀门',
   description: '专业工业阀门制造商 - 高品质、可靠、专业的阀门解决方案',
+  transformPageData: data => {
+    if (data.relativePath !== 'index.md')
+      data.titleTemplate = `美国博雷:title - Bray 美国博雷阀门`
+  },
   head: [
     // 无法生效
     // [

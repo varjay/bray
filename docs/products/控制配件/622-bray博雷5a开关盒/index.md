@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 开关盒5A系列（位置反馈器） – Bray 美国博雷阀门
+title: 开关盒5A系列（位置反馈器）
 category: 控制配件,开关盒
 imgs:
   - /2022/10/download-1-3.png

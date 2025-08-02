@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 衬胶蝶阀35F系列 – Bray 美国博雷阀门
+title: 衬胶蝶阀35F系列
 category: 蝶阀,弹性阀座式
 imgs:
   - /2022/10/download-13.png

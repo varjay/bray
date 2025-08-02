@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: S40螺纹球阀 – Bray 美国博雷阀门
+title: S40螺纹球阀
 category: 球阀,螺纹式
 imgs:
   - /2022/11/download-6-1.png

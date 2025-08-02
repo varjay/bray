@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 止回阀配件SA-2：限位开关 – Bray 美国博雷阀门
+title: 止回阀配件SA-2：限位开关
 category: 止回阀,配件
 imgs:
   - /2022/11/download-8.png

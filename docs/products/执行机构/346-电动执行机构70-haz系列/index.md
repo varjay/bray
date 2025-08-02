@@ -1,9 +1,11 @@
 ---
 layout: doc
-title: 电动执行机构70-HAZ系列 – Bray 美国博雷阀门
+title: 电动执行机构70-HAZ系列
 category: 执行机构,电动执行机构
 imgs:
-  - /2022/09/download-3.png
+  - /2025/08/s70_haz_thumbnail_2.webp
+  - /2025/08/s70_haz_s43-12in-_homehero_1-copy-600x600.webp
+desc: 采用危险场所额定等级设计，搭配自锁蜗杆齿轮，为阀门控制提供可靠保障
 ---
 
 ## Bray 博雷阀门电动执行机构  – 70-HAZ 系列

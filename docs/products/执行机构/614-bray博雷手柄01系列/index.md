@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 手动阀门操作器01系列 – Bray 美国博雷阀门
+title: 手动阀门操作器01系列
 category: 执行机构,手操器
 imgs:
   - /2022/10/download-5.png

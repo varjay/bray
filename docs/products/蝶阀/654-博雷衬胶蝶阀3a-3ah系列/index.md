@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 衬胶蝶阀3A/3AH系列 – Bray 美国博雷阀门
+title: 衬胶蝶阀3A/3AH系列
 category: 蝶阀,弹性阀座式;控制阀,蝶阀
 imgs:
   - /2022/10/download-5-2.png

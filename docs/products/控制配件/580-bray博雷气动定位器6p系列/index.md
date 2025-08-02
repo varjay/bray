@@ -1,9 +1,11 @@
 ---
 layout: doc
-title: 博雷气动定位器6P系列 – Bray 美国博雷阀门
+title: 博雷气动定位器6P系列
 category: 控制配件,定位器
 imgs:
-  - /2022/10/download-1-1.png
+  - /2025/08/6p_thumbnail.webp
+  - /2025/08/6p_s92_s93_size119_s40_homehero_library_-copy-600x600.webp
+desc: 响应迅速且灵敏，实现精准且严苛的控制目标
 ---
 
 ## Bray 博雷阀门 6P 系列气动定位器

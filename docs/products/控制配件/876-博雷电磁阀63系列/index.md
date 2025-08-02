@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 63系列电磁阀线圈 – Bray 美国博雷阀门
+title: 63系列电磁阀线圈
 category: 控制配件,电磁线圈
 imgs:
   - /2022/10/download-14.png

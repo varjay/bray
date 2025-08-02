@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 止回阀配件SA-16：外部重量 – Bray 美国博雷阀门
+title: 止回阀配件SA-16：外部重量
 category: 止回阀,配件
 imgs:
   - /2022/11/download-4-1.png

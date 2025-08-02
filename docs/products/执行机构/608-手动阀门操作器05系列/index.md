@@ -1,9 +1,11 @@
 ---
 layout: doc
-title: 手动阀门操作器05系列 – Bray 美国博雷阀门
+title: 手动阀门操作器05系列
 category: 执行机构,手操器
 imgs:
-  - /2022/10/download-6.png
+  - /2025/08/s05-0300-declutchable_01.webp
+  - /2025/08/s05-0300_s39l-6in_homehero_-copy600x600.webp
+desc: 手动超控，确保弹簧复位执行机构的安全运行
 ---
 
 ## Bray 博雷阀门手动操作器 05 系列

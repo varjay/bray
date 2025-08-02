@@ -34,43 +34,24 @@ function slugify(text: string): string {
 
 /**
  * 从markdown内容中提取标题
+ * 直接使用frontmatter中的title字段
  */
 function extractTitle(content: string, filename: string) {
-  if (filename !== 'index.md') {
-      // 如果不是index.md，使用文件名（去掉.md扩展名）
-      return slugify(path.basename(filename, '.md'));
+  // 提取frontmatter部分
+  const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
+  
+  if (frontmatterMatch && frontmatterMatch[1]) {
+    const frontmatter = frontmatterMatch[1];
+    
+    // 查找title字段
+    const titleMatch = frontmatter.match(/title:\s*(.*)/);
+    if (titleMatch && titleMatch[1] && titleMatch[1].trim()) {
+      return titleMatch[1].trim();
+    }
   }
   
-  // 如果是index.md，从内容中提取标题
-  const lines = content.split('\n');
-  
-  // 跳过vitepress frontmatter（YAML格式的元数据）
-  let startIndex = 0;
-  if (lines[0] === '---') {
-      for (let i = 1; i < lines.length; i++) {
-          if (lines[i] === '---') {
-              startIndex = i + 1;
-              break;
-          }
-      }
-  }
-  
-  // 从非vitepress格式起始处寻找第一个标题或文本
-  for (let i = startIndex; i < lines.length; i++) {
-      const line = lines[i].trim();
-      if (line) {
-          // 如果是标题，提取标题内容
-          if (line.startsWith('#')) {
-              return slugify(line.replace(/^#+\s*/, ''));
-          }
-          // 如果是普通文本，直接返回
-          if (!line.startsWith('<') && !line.startsWith('![')) {
-              return slugify(line);
-          }
-      }
-  }
-  
-  return 'Untitled';
+  // 如果没有找到title字段，使用文件名作为备选
+  return slugify(path.basename(filename));
 }
 
 /**
@@ -119,7 +100,7 @@ export default {
         const { name, dir } = parse(file)
         const images = extractImages(content)
         return {
-          title: extractTitle(content, name+'.md').replace(/^bray-/, '').replace(/^博雷-/, ''),
+          title: extractTitle(content, name+'.md'),
           directory: (dir.split('/').pop() || '').replace(/^\d+-/, '').replace(/^博雷/, '').replace(/^bray博雷/, ''),
           images,
           url: file.replace(/^docs/, '').replace(/index\.md$/, ''),

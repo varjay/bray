@@ -1,9 +1,11 @@
 ---
 layout: doc
-title: 电动执行机构70系列 – Bray 美国博雷阀门
+title: 电动执行机构70系列
 category: 执行机构,电动执行机构
 imgs:
-  - /2022/09/download-2.png
+  - /2025/08/s70_sz30_01.webp
+  - /2025/08/s70_on_s43-12in-_homehero_2.webp
+desc: 轻型电动执行机构专为苛刻的环境和最低限度的维护而设计
 ---
 
 ## Bray 博雷阀门电动执行器 S70 系列

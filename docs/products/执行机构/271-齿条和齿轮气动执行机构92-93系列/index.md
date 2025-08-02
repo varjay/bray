@@ -1,9 +1,11 @@
 ---
 layout: doc
-title: 气动执行机构92/93系列 – Bray 美国博雷阀门
+title: 气动执行机构92/93系列
 category: 执行机构,气动执行机构
 imgs:
-  - /2022/09/download.png
+  - /2025/08/s92_s93_size119_s40_6a_homehero_library_0001-copy-600x600.webp
+  - /2025/08/s92_s93-size119_02.webp
+desc: 强度、紧凑性和简单模块化设计确保可靠的直角回转控制
 ---
 
 ## Bray 博雷阀门气动执行器 S92 双作用/S93 单作用
