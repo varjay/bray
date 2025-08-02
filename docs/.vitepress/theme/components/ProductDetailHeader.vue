@@ -7,12 +7,12 @@ const { frontmatter, page } = useData()
 // 处理图片数据
 const imageList = computed(() => {
   if (!frontmatter.value.imgs) return []
-  
+
   // 如果是字符串，转换为数组
   if (typeof frontmatter.value.imgs === 'string') {
     return [frontmatter.value.imgs]
   }
-  
+
   return frontmatter.value.imgs
 })
 
@@ -33,7 +33,7 @@ function changeImage(img) {
 // 获取产品分类
 const categories = computed(() => {
   if (!frontmatter.value.category) return []
-  return frontmatter.value.category.split(';').map(item => item.split(','))
+  return frontmatter.value.category.split(';').map((item) => item.split(','))
 })
 
 // 获取产品型号
@@ -58,38 +58,39 @@ const desc = computed(() => {
   <div class="product-detail-container">
     <div class="product-info">
       <div class="product-category">
-        <a v-for="d in categories" :href="`/zh/products/${d.join('/')}`" :title="`美国博雷${d.toReversed().join('')}`" class="category-tag">
+        <a
+          v-for="d in categories"
+          :href="`/zh/products/${d.join('/')}`"
+          :title="`美国博雷${d.toReversed().join('')}`"
+          class="category-tag"
+        >
           {{ d.toReversed().join('') }}
         </a>
       </div>
-      
+
       <div class="product-model">
         <h2>{{ productModel }}</h2>
       </div>
-      
+
       <div class="product-description" v-if="desc">
         <p>{{ desc }}</p>
       </div>
-      
+
       <div class="product-thumbnails" v-if="imageList.length > 1">
-        <div 
-          v-for="(img, index) in imageList" 
-          :key="index" 
+        <div
+          v-for="(img, index) in imageList"
+          :key="index"
           class="thumbnail"
           :class="{ active: img === currentImage }"
           @click="changeImage(img)"
         >
-          <img :src="img" :alt="`${productTitle} - 图片${index + 1}`">
+          <img :src="img" :alt="`${productTitle} - 图片${index + 1}`" />
         </div>
       </div>
     </div>
-    
+
     <div class="product-image">
-      <img 
-        v-if="currentImage" 
-        :src="currentImage" 
-        :alt="productTitle"
-      >
+      <img v-if="currentImage" :src="currentImage" :alt="productTitle" />
       <div v-else class="no-image">暂无图片</div>
     </div>
   </div>
@@ -100,7 +101,7 @@ const desc = computed(() => {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 16px 0
+  padding: 16px 0;
 }
 
 .product-info {
@@ -208,14 +209,29 @@ const desc = computed(() => {
     padding: 0;
     gap: 0;
   }
-  
+  .product-category {
+    order: 2;
+    justify-content: center;
+  }
+  .product-model {
+    order: 3;
+  }
+  .product-description {
+    order: 4;
+  }
   .product-info {
     max-width: 100%;
     gap: 0.5rem;
+    padding: 0 24px;
+    text-align: center;
   }
 
   .product-image img {
     height: 240px;
   }
+  .product-thumbnails {
+    justify-content: center;
+    order: 1;
+  }
 }
-</style> 
+</style>
