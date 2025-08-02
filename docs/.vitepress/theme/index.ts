@@ -5,6 +5,9 @@ import './style.css'
 import CustomNavItem from './components/CustomNavItem.vue'
 import ProductLayout from './ProductLayout.vue'
 
+// 导入 polyfills
+import './polyfills'
+
 // 导入UnoCSS
 import 'uno.css'
 
