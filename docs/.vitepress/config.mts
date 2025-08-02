@@ -157,6 +157,21 @@ export default defineConfig({
     // 添加本地搜索配置
     search: {
       provider: 'local',
+      options: {
+        translations: {
+        button: {
+          buttonText: '搜索...'
+        },
+        modal: {
+          noResultsText: '没有找到：',
+          footer: {
+            navigateText: '上下切换',
+            closeText: '关闭',
+            selectText: '回车选择'
+          }
+        }
+       }
+      }
     },
   },
 })

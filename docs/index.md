@@ -5,8 +5,8 @@ title: Bray 美国博雷阀门 - 美国博雷阀门Bray是全球流体控制、�
 
 hero:
   # name: "全面、综合控制系统解决方案"
-  text: "<br>全面、综合控制系统解决方案"
-  tagline: "全球流体控制、自动化产品与配件的首要制造商之一，拥有超过30年的持续成历程，并在世界各地逾40个国家和地区开展业务运营。<br><br>"
+  text: '<br>全面、综合控制系统解决方案'
+  tagline: '全球流体控制、自动化产品与配件的首要制造商之一，拥有超过30年的持续成历程，并在世界各地逾40个国家和地区开展业务运营。<br><br>'
   # image:
   #   src: "/logo.png"
   #   alt: "博雷阀门logo"
@@ -24,7 +24,7 @@ features:
     details: 博雷在40多个国家有分支机构
   - icon: <span class="i-mynaui-telephone-call-solid"></span>
     title: 联系我们
-    details: (+86) 139-1744-4407
+    details: (+86) 021-5160 2757
   - icon: <span class="i-material-symbols-mark-email-read"></span>
     title: 9:00 AM - 5:00 PM
     details: 周一到周六

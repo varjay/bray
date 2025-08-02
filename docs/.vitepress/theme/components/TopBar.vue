@@ -8,7 +8,7 @@
         <div class="right">
           <span class="desktop-only">
             <span class="inline-block v-sub i-mynaui-telephone-call-solid"></span>
-            +86-139 1744 4407
+            +86 021-5160 2757
           </span>
           <span class="separator desktop-only">|</span>
           <span class="desktop-only">
@@ -17,7 +17,7 @@
           </span>
           <span class="mobile-only">
             <span class="inline-block v-sub i-mynaui-telephone-call-solid"></span>
-            139 1744 4407
+            021-5160 2757
             <span class="separator ml-2 mr-3">|</span>
             <span class="inline-block v-sub i-material-symbols:mail"></span>
             13917444407@163.com

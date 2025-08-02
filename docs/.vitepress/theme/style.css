@@ -225,6 +225,13 @@ body {
   width: 100%;
   max-width: 640px;
 }
+.DocSearch-Button-Keys {
+  pointer-events: none;
+  opacity: 0;
+}
+.aside-curtain {
+  display: none;
+}
 @media (min-width: 768px) {
   .doc-extend-content-change {
     margin-left: -32px;
